@@ -1,0 +1,70 @@
+@theme: #26b99a;
+
+@primary: #007bff;
+@secondary: #6c757d;
+@success: #28a745;
+@danger: #dc3545;
+@warning: #ffc107;
+@info: #17a2b8;
+@light: #f8f9fa;
+@dark: #343a40;
+
+
+@font-main: #303133;
+@font-normal: #606266;
+@font-minor: #909399;
+@font-seize: #C0C4CC;
+
+@border-1: #DCDFE6;
+@border-2: #E4E7ED;
+@border-3: #EBEEF5;
+@border-4: #F2F6FC;
+
+@font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+
+// global
+body {
+  font-family: @font-family
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #bfcbd9!important;
+  font-weight: lighter;
+  font-size: 14px!important;
+  opacity: 1; /* Firefox */
+}
+
+.form-control:focus {
+  border-color: #007bff;
+  box-shadow: none;
+}
+
+// Bootstrap
+@import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
+
+// Bootstrap DateTimePicker
+@import "../../node_modules/pc-bootstrap4-datetimepicker/build/css/bootstrap-datetimepicker.min.css";
+
+// Font Awesome
+@import "fontawesome-all.min.css";
+
+// yue-ui
+@import "transition";
+@import "container";
+@import "layout";
+@import "button";
+@import "button-group";
+@import "radio";
+@import "radio-group";
+@import "checkbox";
+@import "checkbox-group";
+@import "input";
+@import "dropdown-list";
+@import "scroll";
+@import "select";
+@import "switch";
+@import "datepicker";
+@import "form";
+@import "table";
+@import "collapse";

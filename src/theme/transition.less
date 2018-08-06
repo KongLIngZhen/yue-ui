@@ -1,0 +1,21 @@
+.y-zoom-in-bottom-enter-active,
+.y-zoom-in-bottom-leave-active,
+.y-zoom-in-left-enter-active,
+.y-zoom-in-left-leave-active,
+.y-zoom-in-top-enter-active,
+.y-zoom-in-top-leave-active {
+  transition: transform .8s cubic-bezier(.23, 1, .32, 1) .1s, opacity .3s cubic-bezier(.23, 1, .32, 1) .1s
+}
+.y-zoom-in-top-enter-active, .y-zoom-in-top-leave-active {
+  opacity: 1;
+  -ms-transform: scaleY(1);
+  transform: scaleY(1);
+  -ms-transform-origin: center top;
+  transform-origin: center top;
+}
+
+.y-zoom-in-top-enter, .y-zoom-in-top-leave-active {
+  opacity: 0;
+  -ms-transform: scaleY(0);
+  transform: scaleY(0);
+}

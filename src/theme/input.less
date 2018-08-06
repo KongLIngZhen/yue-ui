@@ -1,0 +1,76 @@
+.y-input {
+  position: relative;
+  font-size: 14px;
+  display: inline-block;
+  width: 100%;
+}
+.y-input .suggestLoading {
+  width: 25px;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  line-height: 0;
+  color: #aeb4b9;
+}
+.y-input.is-disabled input {
+  color: #c0c4cc;
+  cursor: not-allowed;
+}
+.y-input.is-clearable input {
+  padding-right: 1.5rem;
+}
+.y-input.is-prefix input {
+  padding-left: 1.5rem;
+}
+.y-input.is-suffix input {
+  padding-right: 1.5rem;
+}
+.y-input.is-suggest input {
+  padding-right: 1.5rem;
+}
+.y-input .y-input-clearable {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #aeb4b9;
+  cursor: pointer;
+  height: 100%;
+  width: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 200;
+}
+.y-input-prefix {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #aeb4b9;
+}
+.y-input-suffix {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #aeb4b9;
+}
+.y-input-prefix i {
+  width: 25px;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.y-input-suffix i {
+  width: 25px;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  line-height: 0;
+}
+.y-input-icon,
+.y-input-prefix,
+.y-input-suffix {
+  height: 100%;
+  text-align: center;
+  transition: all .3s;
+}

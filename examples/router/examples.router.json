@@ -1,0 +1,86 @@
+[
+  {
+    "name": "layout",
+    "path": "/layout"
+  },
+  {
+    "name": "container",
+    "path": "/container"
+  },
+  {
+    "name": "color",
+    "path": "/color"
+  },
+  {
+    "name": "font",
+    "path": "/font"
+  },
+  {
+    "name": "icon",
+    "path": "/icon"
+  },
+  {
+    "name": "button",
+    "path": "/button"
+  },
+  {
+    "name": "radio",
+    "path": "/radio"
+  },
+  {
+    "name": "checkbox",
+    "path": "/checkbox"
+  },
+  {
+    "name": "input",
+    "path": "/input"
+  },
+  {
+    "name": "inputNumber",
+    "path": "/inputNumber"
+  },
+  {
+    "name": "select",
+    "path": "/select"
+  },
+  {
+    "name": "switch",
+    "path": "/switch"
+  },
+  {
+    "name": "datePicker",
+    "path": "/datePicker"
+  },
+  {
+    "name": "form",
+    "path": "/form"
+  },
+  {
+    "name": "table",
+    "path": "/table"
+  },
+  {
+    "name": "progress",
+    "path": "/progress"
+  },
+  {
+    "name": "modal",
+    "path": "/modal"
+  },
+  {
+    "name": "tooltip",
+    "path": "/tooltip"
+  },
+  {
+    "name": "popover",
+    "path": "/popover"
+  },
+  {
+    "name": "card",
+    "path": "/card"
+  },
+  {
+    "name": "collapse",
+    "path": "/collapse"
+  }
+]

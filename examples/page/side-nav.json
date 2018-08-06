@@ -1,0 +1,169 @@
+[
+  {
+    "name": "开发日志",
+    "path": "/"
+  },
+  {
+    "name": "更新日志",
+    "path": "/"
+  },
+  {
+    "name": "开发指南",
+    "path": "/",
+    "children": [
+      {
+        "title": "",
+        "group": [
+          {
+            "name": "安装",
+            "path": "/"
+          },
+          {
+            "name": "脚手架",
+            "path": "/"
+          },
+          {
+            "name": "国际化",
+            "path": "/"
+          },
+          {
+            "name": "主题",
+            "path": "/"
+          },
+          {
+            "name": "案例",
+            "path": "/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "组件",
+    "path": "/",
+    "children": [
+      {
+        "title": "Basic",
+        "group": [
+          {
+            "name": "Layout 布局",
+            "path": "/layout"
+          },
+          {
+            "name": "Container 布局容器",
+            "path": "/container"
+          },
+          {
+            "name": "Color 色彩",
+            "path": "/color"
+          },
+          {
+            "name": "Typography 字体",
+            "path": "/font"
+          },
+          {
+            "name": "Icon 图标",
+            "path": "/icon"
+          },
+          {
+            "name": "Button 按钮",
+            "path": "/button"
+          }
+        ]
+      },
+      {
+        "title": "Form",
+        "group": [
+          {
+            "name": "Radio 单选框",
+            "path": "/radio"
+          },
+          {
+            "name": "Checkbox 多选框",
+            "path": "/checkbox"
+          },
+          {
+            "name": "Input 输入框",
+            "path": "/input"
+          },
+          {
+            "name": "Select 选择器",
+            "path": "/select"
+          },
+          {
+            "name": "Cascader 级联选择器 建设中",
+            "path": "/cascader"
+          },
+          {
+            "name": "Switch 开关",
+            "path": "/switch"
+          },
+          {
+            "name": "DatePicker 日期选择器",
+            "path": "/datePicker"
+          },
+          {
+            "name": "Form 表单",
+            "path": "/form"
+          }
+        ]
+      },
+      {
+        "title": "Data",
+        "group": [
+          {
+            "name": "Table 表格",
+            "path": "/table"
+          },
+          {
+            "name": "Progress 进度条",
+            "path": "/progress"
+          }
+        ]
+      },
+      {
+        "title": "Notice",
+        "group": [
+          {
+            "name": "Alert 警告",
+            "path": "/alert"
+          }
+        ]
+      },
+      {
+        "title": "Navigation",
+        "group": [
+          {
+            "name": "建设中2",
+            "path": "/"
+          }
+        ]
+      },
+      {
+        "title": "Others",
+        "group": [
+          {
+            "name": "Modal 模态框",
+            "path": "/modal"
+          },
+          {
+            "name": "Tooltip 文字提示",
+            "path": "/tooltip"
+          },
+          {
+            "name": "Popover 弹出框",
+            "path": "/popover"
+          },
+          {
+            "name": "Card 卡片",
+            "path": "/card"
+          },
+          {
+            "name": "Collapse 折叠面板",
+            "path": "/collapse"
+          }
+        ]
+      }
+    ]
+  }
+]

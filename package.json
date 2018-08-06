@@ -35,11 +35,11 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/286506460/yue-ui.git"
   },
   "license": "MIT",
   "bugs": {
-    "url": ""
+    "url": "https://github.com/286506460/yue-ui/issues"
   },
   "dependencies": {
     "async-validator": "^1.8.2",

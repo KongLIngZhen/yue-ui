@@ -29,6 +29,7 @@ import Tooltip from './components/tooltip/index.js'
 import Popover from './components/popover/index.js'
 import Card from './components/card/index.js'
 import Collapse from './components/collapse/index.js'
+import Alert from './components/alert/index.js'
 
 const components = [
   Aside,

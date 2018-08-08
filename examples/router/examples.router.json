@@ -82,5 +82,9 @@
   {
     "name": "collapse",
     "path": "/collapse"
+  },
+  {
+    "name": "alert",
+    "path": "/alert"
   }
 ]

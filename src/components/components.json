@@ -29,5 +29,7 @@
   "popover": "./src/components/popover/index.js",
   "card": "./src/components/card/index.js",
   "collapse": "./src/components/collapse/index.js",
-  "alert": "./src/components/alert/index.js"
+  "alert": "./src/components/alert/index.js",
+  "breadcrumb": "./src/components/breadcrumb/index.js",
+  "breadcrumb-item": "./src/components/breadcrumb-item/index.js"
 }

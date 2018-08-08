@@ -30,6 +30,8 @@ import Popover from './components/popover/index.js'
 import Card from './components/card/index.js'
 import Collapse from './components/collapse/index.js'
 import Alert from './components/alert/index.js'
+import Breadcrumb from './components/breadcrumb/index.js'
+import BreadcrumbItem from './components/breadcrumb-item/index.js'
 
 const components = [
   Aside,
@@ -61,7 +63,10 @@ const components = [
   Tooltip,
   Popover,
   Card,
-  Collapse
+  Collapse,
+  Alert,
+  Breadcrumb,
+  BreadcrumbItem
 ]
 
 const install = function (Vue) {

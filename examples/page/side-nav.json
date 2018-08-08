@@ -134,8 +134,16 @@
         "title": "Navigation",
         "group": [
           {
-            "name": "建设中2",
-            "path": "/"
+            "name": "Breadcrumb 面包屑",
+            "path": "/breadcrumb"
+          },
+          {
+            "name": "Navs 导航",
+            "path": "/navs"
+          },
+          {
+            "name": "Navbar 导航条",
+            "path": "/navbar"
           }
         ]
       },

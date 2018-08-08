@@ -86,5 +86,17 @@
   {
     "name": "alert",
     "path": "/alert"
+  },
+  {
+    "name": "breadcrumb",
+    "path": "/breadcrumb"
+  },
+  {
+    "name": "navs",
+    "path": "/navs"
+  },
+  {
+    "name": "navbar",
+    "path": "/navbar"
   }
 ]

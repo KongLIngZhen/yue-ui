@@ -26,24 +26,24 @@ body {
   padding: 20px;
   border-radius: 4px;
 }
-/*.docs table {*/
-  /*border-collapse: collapse;*/
-  /*width: 100%;*/
-  /*background-color: #fff;*/
-  /*font-size: 14px;*/
-  /*margin-bottom: 45px;*/
-  /*line-height: 1.5em;*/
-/*}*/
-/*.docs table td:first-child,*/
-/*.docs table th:first-child {*/
-  /*padding-left: 10px;*/
-/*}*/
-/*.docs table td {*/
-  /*color: #333;*/
-/*}*/
-/*.docs table td,*/
-/*.docs table th {*/
-  /*border-bottom: 1px solid #d8d8d8;*/
-  /*padding: 15px;*/
-  /*max-width: 250px;*/
-/*}*/
+.docs table:not(.table) {
+  border-collapse: collapse;
+  width: 100%;
+  background-color: #fff;
+  font-size: 14px;
+  margin-bottom: 45px;
+  line-height: 1.5em;
+}
+.docs table:not(.table) td:first-child,
+.docs table:not(.table) th:first-child {
+  padding-left: 10px;
+}
+.docs table:not(.table) td {
+  color: #333;
+}
+.docs table:not(.table) td,
+.docs table:not(.table) th {
+  border-bottom: 1px solid #d8d8d8;
+  padding: 15px;
+  max-width: 250px;
+}

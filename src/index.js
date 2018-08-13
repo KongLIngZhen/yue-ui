@@ -32,6 +32,8 @@ import Collapse from './components/collapse/index.js'
 import Alert from './components/alert/index.js'
 import Breadcrumb from './components/breadcrumb/index.js'
 import BreadcrumbItem from './components/breadcrumb-item/index.js'
+import Nav from './components/nav/index.js'
+import NavItem from './components/nav-item/index.js'
 
 const components = [
   Aside,
@@ -66,7 +68,9 @@ const components = [
   Collapse,
   Alert,
   Breadcrumb,
-  BreadcrumbItem
+  BreadcrumbItem,
+  Nav,
+  NavItem
 ]
 
 const install = function (Vue) {
@@ -111,5 +115,10 @@ export {
   Tooltip,
   Popover,
   Card,
-  Collapse
+  Collapse,
+  Alert,
+  Breadcrumb,
+  BreadcrumbItem,
+  Nav,
+  NavItem
 }

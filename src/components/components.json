@@ -31,5 +31,7 @@
   "collapse": "./src/components/collapse/index.js",
   "alert": "./src/components/alert/index.js",
   "breadcrumb": "./src/components/breadcrumb/index.js",
-  "breadcrumb-item": "./src/components/breadcrumb-item/index.js"
+  "breadcrumb-item": "./src/components/breadcrumb-item/index.js",
+  "nav": "./src/components/nav/index.js",
+  "nav-item": "./src/components/nav-item/index.js"
 }

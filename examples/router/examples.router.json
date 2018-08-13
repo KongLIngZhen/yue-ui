@@ -92,8 +92,8 @@
     "path": "/breadcrumb"
   },
   {
-    "name": "navs",
-    "path": "/navs"
+    "name": "nav",
+    "path": "/nav"
   },
   {
     "name": "navbar",
